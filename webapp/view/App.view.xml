@@ -1,0 +1,17 @@
+<mvc:View
+	controllerName="com.christian.ui.location.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true">
+	<App>
+		<pages>
+			<Page title="{i18n>homePageTitle}">
+				<content>
+					<Button
+						text="Say Hello"
+						press=".onShowHello"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
