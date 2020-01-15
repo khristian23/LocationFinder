@@ -14,7 +14,7 @@
 				"uri": "http://localhost:3000/",
 				"type": "OData",
 				"settings": {
-					"odataVersion": "2.0"
+					"odataVersion": "4.0"
 				}
 			}
 		}
@@ -48,7 +48,12 @@
 				}
 			},
 			"": {
-				"dataSource": "mainService"
+				"dataSource": "mainService",
+				"settings": {
+					"synchronizationMode" : "None",
+					"earlyRequests": false,
+					"groupId": "$direct"
+				}
 			}
 		}
 	}
